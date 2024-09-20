@@ -11,6 +11,8 @@ import { Navbar } from './Components/Navbar';
 import { HSharpPage } from './Pages/HSharpPage';
 import { AiArtGallery } from './Pages/AiArtGallery';
 import { ContactPage } from './Pages/ContactPage';
+import { IrresponsibleAdventuringPage } from './Pages/IrresponsibleAdventuring';
+import { TextScreenEffectPage } from './Pages/TextScreenEffectPage';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="demos" element={<DemoPage />}/>
           <Route path='demos/h-sharp' element={<HSharpPage/>}/>
           <Route path='demos/scifi-ai-art-gallery' element={<AiArtGallery/>}/>
+          <Route path='demos/irresponsible-adventuring' element={<IrresponsibleAdventuringPage/>}/>
+          <Route path='demos/text-screen-effect' element={<TextScreenEffectPage/>}/>
           {/*
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />*/}

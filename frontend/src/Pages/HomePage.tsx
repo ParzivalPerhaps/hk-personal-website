@@ -126,52 +126,7 @@ export const HomePage = () => {
           </div>
         </div> 
         */}
-        <div className="Island" style={{marginTop:'4rem'}}>
-              <div className="IslandHeader" style={{backgroundColor:'#E1DDBE'}}>
-                <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>LEARN ABOUT ISM. LEARN ABOUT ISM. LEARN ABOUT ISM.  </span>ABOUT ISM <span className="TextLight" style={{fontSize:12}}>LEARN ABOUT ISM. LEARN ABOUT ISM. LEARN ABOUT ISM.  </span></p>
-                
-              </div>
-              <div className="IslandItem">
-              <div className='ChipGroup'>
-                <div className="Chip" style={{backgroundColor:'green'}}>
-                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Research</p>
-                </div>
-                <div className="Chip" style={{backgroundColor:'#CBBF7A'}}>
-                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Time Management</p>
-                </div>
-                <div className="Chip" style={{backgroundColor:'#7C98B3'}}>
-                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Independent Work</p>
-                </div>
-                <div className="Chip" style={{backgroundColor:'#006494'}}>
-                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Public Speaking</p>
-                </div>
-              
-                </div>
-                
-                <p className='TextLight' style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto',  lineHeight:'1.5'}}>Some projects in my portfolio may be associated with the Frisco ISD Independent Study and Mentorship Program which is described as follows:
-                 <i>"Independent Study and Mentorship (ISM) is an exciting, rigorous elective offered at Frisco ISD high schools, designed for high-achieving juniors or seniors.
-
-Students interested in taking ISM must complete the application and interview process to be considered for the course. Once selected, students conduct research and interviews throughout the year on their chosen topic of study in order to select a mentor and gain real-world experience. "</i></p>
-
-                
-              </div>
-
-              
-              <div style={{borderRadius:'20px', cursor:'pointer', display:'flex', backgroundColor:'#E1DDBE', width:'20%', height:'fit-content', marginTop:'0.4rem', marginBottom:'1rem', padding:'4px', justifyContent:'center', margin:'auto', textAlign:'center'}}>
-                <a href="/blogs" style={{display:'flex'}}>
-                    <p className='TextHeavy' style={{justifyContent:'center', margin:'auto', color:'black'}}>CHECK OUT MY ISM-RELATED BLOG </p>
-                    <RedirectArrow color='#000000'/>
-                  </a>
-                </div>
-                
-
-              
-            </div>
             
-
-            <p className='TextLight' style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', marginBottom:'-3rem',  lineHeight:'1.5', marginTop:'3rem'}}><i>"JavaScript is for geniuses or con-men, that's why I use it!" - Hayden Karp</i></p>
-
-
             <div className="Island">
           <div className="IslandHeader">
             <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>WHAT I'VE CREATED. WHAT I'VE CREATED. WHAT I'VE CREATED.  </span>PROJECTS <span className="TextLight" style={{fontSize:12}}>WHAT I'VE CREATED. WHAT I'VE CREATED. WHAT I'VE CREATED.    </span></p>
@@ -353,7 +308,7 @@ Students interested in taking ISM must complete the application and interview pr
           </div>
           <div className="Island" style={{maxWidth:'40%'}}>
           <div className="IslandHeader">
-            <a rel='noreferrer' target='_blank' href='https://github.com/ParzivalPerhaps/argo-model-un-bot'>
+            <a rel='noreferrer' target='_blank' href='/demos/irresponsible-adventuring'>
             <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>RETRO DUNGEON CRAWLER. </span><u>IRRESPONSIBLE ADVENTURING</u> <span className="TextLight" style={{fontSize:12}}>RETRO DUNGEON CRAWLER.    </span></p>
             </a>
           </div>
@@ -375,6 +330,15 @@ Students interested in taking ISM must complete the application and interview pr
           </div>
 
           
+          <div style={{marginTop:'2rem', marginBottom:'2rem', width:'50%'}}>
+              <div className='LinkChip' style={{width:'40%', backgroundColor:'#1C7C54'}}>
+                <a rel='noreferrer' target='_blank' href="/demos/irresponsible-adventuring" style={{display:'flex'}}>
+                    <p className='TextHeavy' style={{justifyContent:'center', margin:'auto', color:'#DEE0E7', marginRight:'5px'}}>TRY IT OUT  </p>
+                    <RedirectArrow color='#FFFFFF'/>
+                    </a>
+                  </div>
+                </div>
+
         </div>
         </div>
 

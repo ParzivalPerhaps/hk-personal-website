@@ -30,11 +30,18 @@ export const Navbar = () => (
           
       </div>
     <div className="NavbarItem">
-          <a href="/blogs">
+      {window.location.href.substring(window.location.href.lastIndexOf("/"), window.location.href.length) === "/3d-art" ?
+            <p className="TextHeavy" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+              3D ART
+            </p>
+
+          :
+          <a href="/3d-art">
               <p className="TextHeavy">
-                BLOG
+                3D ART
               </p>
-          </a>
+          </a>}
+          
       </div>
 
       <div className="NavbarItem">
@@ -47,12 +54,6 @@ export const Navbar = () => (
 
       {
       window.location.href.substring(window.location.href.lastIndexOf("/"), window.location.href.length) === "/" && <>
-      <div className="NavbarItem" onClick={() => window.scrollTo({ top: 440, behavior: "smooth" })}>
-              <p className="TextHeavy" style={{backgroundColor:'#2E3744', color:'#F1F1F1', padding:'5px', borderRadius:'4px'}}>
-                  ABOUT ISM
-              </p>
-      </div>
-    
       <div className="NavbarItem" onClick={() => window.scrollTo({ top: 1150, behavior: "smooth" })}>
       <p className="TextHeavy" style={{backgroundColor:'#2E3744', color:'#F1F1F1', padding:'5px', borderRadius:'4px'}}>
                   PROJECTS

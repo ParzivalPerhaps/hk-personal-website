@@ -7,14 +7,14 @@ export const HomePage = () => {
   const [currentTitle, setCurrentTitle] = useState("");
 
   async function topTextAnim() {
-    const titles = ["Web Developer", "Game Developer", "3D Artist", "React", "C# && Unity", "TypeScript && JavaScript",  "Game Design"];
+    const titles = ["Hayden Karp", "Web Developer", "Game Developer", "3D Artist", "React", "C# && Unity", "TypeScript && JavaScript",  "Game Design"];
     let deleting = false;
 
     let titleIndex = 0;
     let charIndex = 0;
     let str = "";
     while (true) {
-       await new Promise(resolve => setTimeout(resolve, 600));
+       await new Promise(resolve => setTimeout(resolve, 200));
 
        if (!deleting){
           let u = str + titles[titleIndex][charIndex];
@@ -25,7 +25,7 @@ export const HomePage = () => {
             await new Promise(resolve => setTimeout(resolve, 800));
 
             while (str.length > 0){
-              await new Promise(resolve => setTimeout(resolve, 400));
+              await new Promise(resolve => setTimeout(resolve, 100));
               let u = str.substring(0, str.length - 1);
               setCurrentTitle(u)
               str = u;
@@ -330,7 +330,7 @@ export const HomePage = () => {
           </div>
 
           
-          <div style={{marginTop:'2rem', marginBottom:'2rem', width:'50%'}}>
+          <div style={{marginTop:'2rem', marginBottom:'2rem', width:'100%'}}>
               <div className='LinkChip' style={{width:'40%', backgroundColor:'#1C7C54'}}>
                 <a rel='noreferrer' target='_blank' href="/demos/irresponsible-adventuring" style={{display:'flex'}}>
                     <p className='TextHeavy' style={{justifyContent:'center', margin:'auto', color:'#DEE0E7', marginRight:'5px'}}>TRY IT OUT  </p>
@@ -423,6 +423,52 @@ export const HomePage = () => {
               <div className='LinkChip' style={{width:'40%', backgroundColor:'#1C7C54'}}>
                 <a rel='noreferrer' target='_blank' href="/demos/scifi-ai-art-gallery" style={{display:'flex'}}>
                     <p className='TextHeavy' style={{justifyContent:'center', margin:'auto', color:'#DEE0E7', marginRight:'5px'}}>CHECK OUT THE GALLERY  </p>
+                    <RedirectArrow color='#FFFFFF'/>
+                    </a>
+                  </div>
+                </div>
+
+            </div>
+
+            
+          </div>
+        </div>
+
+        <div className="Island">
+          <div className="IslandHeader">
+            <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>EVERYTHING ELSE. EVERYTHING ELSE.  </span>OTHER STUFF <span className="TextLight" style={{fontSize:12}}>EVERYTHING ELSE. EVERYTHING ELSE.    </span></p>
+            
+          </div>
+          <div className="IslandItem">
+            <p style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5', fontSize:30}}>Check out what I've worked on! These projects are not organized in any specific way, but they will have skills attached.</p>
+          </div>
+
+          
+        </div>
+
+        <div style={{display:'flex'}}>
+          <div className="Island" style={{maxWidth:'40%'}}>
+            <div className="IslandHeader">
+              <a rel='noreferrer' target='_blank' href='/demos/scifi-ai-art-gallery'>
+              <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREAM. </span><u>TEXT SCREEN EFFECT</u> <span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREAM.    </span></p>
+              </a>
+            </div>
+            <div className="IslandItem">
+              <div className='ChipGroup' style={{width:'35%'}}>
+              <div className="Chip" style={{backgroundColor:'#26C485'}}>
+                <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>C# & Unity</p>
+              </div>
+                <div className="Chip" style={{backgroundColor:'#1C7C54'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Wildcard</p>
+                </div>
+                
+              </div>
+
+              <p style={{textAlign:'center', width:'85%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>A unity effect that renders the environment in text, using the colors of the environment to assign different contextual text to certain objects.</p>
+              <div style={{marginTop:'2rem', marginBottom:'2rem'}}>
+              <div className='LinkChip' style={{width:'40%', backgroundColor:'#1C7C54'}}>
+                <a rel='noreferrer' target='_blank' href="/demos/text-screen-effect" style={{display:'flex'}}>
+                    <p className='TextHeavy' style={{justifyContent:'center', margin:'auto', color:'#DEE0E7', marginRight:'5px'}}>TRY IT OUT  </p>
                     <RedirectArrow color='#FFFFFF'/>
                     </a>
                   </div>

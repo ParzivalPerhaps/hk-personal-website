@@ -17,7 +17,7 @@ export const TextScreenEffectPage = () => {
             <div className="IslandHeader">
                 <p>Text Effect Demo (Left Click to toggle effect)</p>
             </div>
-            <Unity style={{justifySelf:'center', alignSelf:'center', margin:'auto', position:'absolute', height:'750px', width:'55%', left:'22%', top:'15rem', borderRadius:'4px'}} unityProvider={unityProvider} />
+            <Unity style={{justifySelf:'center', alignSelf:'center', margin:'auto', position:'absolute', height:'750px', width:'fit-content', left:'22%', top:'15rem', borderRadius:'4px'}} unityProvider={unityProvider} />
         </div>)
         
         /*

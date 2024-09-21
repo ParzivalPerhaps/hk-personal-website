@@ -13,6 +13,7 @@ import { AiArtGallery } from './Pages/AiArtGallery';
 import { ContactPage } from './Pages/ContactPage';
 import { IrresponsibleAdventuringPage } from './Pages/IrresponsibleAdventuring';
 import { TextScreenEffectPage } from './Pages/TextScreenEffectPage';
+import { ThreeDArtPage } from './Pages/ThreeDArtPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="blogs" element={<BlogPage />} />
           <Route path="contact" element={<ContactPage />} />
+          <Route path="3d-art" element={<ThreeDArtPage/>}/>
           <Route path="demos" element={<DemoPage />}/>
           <Route path='demos/h-sharp' element={<HSharpPage/>}/>
           <Route path='demos/scifi-ai-art-gallery' element={<AiArtGallery/>}/>

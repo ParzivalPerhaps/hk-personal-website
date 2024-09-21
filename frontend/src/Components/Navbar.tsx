@@ -15,7 +15,7 @@ export const Navbar = () => (
     
     <div className="NavbarItem">
       {
-        window.location.href.substring(window.location.href.lastIndexOf("/"), window.location.href.length) === "/" ?
+        window.location.href.substring(window.location.href.lastIndexOf("/"), window.location.href.length) === "/" && !window.location.href.includes("3d-art") ?
             <p className="TextHeavy" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
               HOME
             </p>

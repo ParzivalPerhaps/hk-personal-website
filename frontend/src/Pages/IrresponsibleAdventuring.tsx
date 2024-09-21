@@ -5,10 +5,10 @@ import { RedirectArrow } from "../Components/Redirect";
 export const IrresponsibleAdventuringPage = () => {
     
     const { unityProvider } = useUnityContext({
-        loaderUrl: "/irresponsibleAdventuring/WebBuild.loader.js",
-        dataUrl: "/irresponsibleAdventuring/WebBuild.data",
-        frameworkUrl: "/irresponsibleAdventuring/WebBuild.framework.js",
-        codeUrl: "/irresponsibleAdventuring/WebBuild.wasm",
+        loaderUrl: "/irresponsibleAdventuring/TemplateData.loader.js",
+        dataUrl: "/irresponsibleAdventuring/TemplateData.data",
+        frameworkUrl: "/irresponsibleAdventuring/TemplateData.framework.js",
+        codeUrl: "/irresponsibleAdventuring/TemplateData.wasm",
       });
     
       

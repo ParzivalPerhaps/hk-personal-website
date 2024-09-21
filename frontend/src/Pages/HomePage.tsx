@@ -308,7 +308,7 @@ export const HomePage = () => {
           </div>
           <div className="Island" style={{maxWidth:'40%'}}>
           <div className="IslandHeader">
-            <a rel='noreferrer' target='_blank' href='/demos/irresponsible-adventuring'>
+            <a rel='noreferrer' target='_blank' href='https://github.com/ParzivalPerhaps/irresponsible-adventuring'>
             <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>RETRO DUNGEON CRAWLER. </span><u>IRRESPONSIBLE ADVENTURING</u> <span className="TextLight" style={{fontSize:12}}>RETRO DUNGEON CRAWLER.    </span></p>
             </a>
           </div>
@@ -388,7 +388,7 @@ export const HomePage = () => {
               
             </div>
             
-            <p style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>The player navigates a motel in an attempt to beat AI enemy detectives and escape just with their trusty revolver. </p>
+            <p style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>A top down shooter where the player navigates a motel in an attempt to beat AI enemies and escape just with their trusty revolver. </p>
           </div>
 
           
@@ -417,7 +417,7 @@ export const HomePage = () => {
               </div>
 
               <p style={{textAlign:'center', width:'85%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>An AI model trained to create science fiction space-ship concept art based on a text prompt. Accomplished through {">"}220k steps of training of a Stable-Diffusion 3 based model</p>
-              <p className="TextHeavy" style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>Model file not published to respect copyright of training data creators</p>
+              <p className="TextHeavy" style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>Model file not published to respect copyright of training data creators, done for educational purposes only</p>
               
               <div style={{marginTop:'2rem', marginBottom:'2rem'}}>
               <div className='LinkChip' style={{width:'40%', backgroundColor:'#1C7C54'}}>
@@ -440,7 +440,7 @@ export const HomePage = () => {
             
           </div>
           <div className="IslandItem">
-            <p style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5', fontSize:30}}>Check out what I've worked on! These projects are not organized in any specific way, but they will have skills attached.</p>
+            <p style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto', lineHeight:'1.5', fontSize:30}}>A few other things I've made that don't necessarily qualify as full projects, but they're still work I've done and cool!</p>
           </div>
 
           
@@ -450,7 +450,7 @@ export const HomePage = () => {
           <div className="Island" style={{maxWidth:'40%'}}>
             <div className="IslandHeader">
               <a rel='noreferrer' target='_blank' href='/demos/scifi-ai-art-gallery'>
-              <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREAM. </span><u>TEXT SCREEN EFFECT</u> <span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREAM.    </span></p>
+              <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREEN. </span><u>TEXT SCREEN EFFECT</u> <span className="TextLight" style={{fontSize:12}}>I HAVE NO FONT BUT I MUST SCREEN.    </span></p>
               </a>
             </div>
             <div className="IslandItem">

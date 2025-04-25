@@ -15,7 +15,7 @@ export const ContactPage = () => {
                 
             </div>
             <div className="IslandItem" style={{width:'80%'}}>
-                <p style={{textAlign:'center', width:'100%', justifyContent:'center', margin:'auto', lineHeight:'1.5', maxWidth:'100%', fontSize:30}}>Email: HaydenNinja@hotmail.com<br/>Phone: 972-536-3119</p>
+                <p style={{textAlign:'center', width:'100%', justifyContent:'center', margin:'auto', lineHeight:'1.5', maxWidth:'100%', fontSize:30}}>Email: karphayden@gmail.com<br/>Phone: 972-536-3119</p>
             </div>    
         </div>
 

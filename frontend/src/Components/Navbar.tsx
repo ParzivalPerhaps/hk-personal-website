@@ -90,7 +90,7 @@ export const Navbar = () => (
   <Outlet/>
 
   {!window.location.href.includes("demos") && !window.location.href.includes("blog") && <div className="Footer">
-  <p>Hayden Karp && HaydenNinja@hotmail.com && <span><a style={{color:'#F1F1F1'}} target="_blank" rel="noreferrer" href="https://github.com/ParzivalPerhaps"><u>My GitHub</u></a></span></p>
+  <p>Hayden Karp && karphayden@gmail.com && <span><a style={{color:'#F1F1F1'}} target="_blank" rel="noreferrer" href="https://github.com/ParzivalPerhaps"><u>My GitHub</u></a></span></p>
       
   </div>}
   </div>

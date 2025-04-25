@@ -72,6 +72,7 @@
   width: 91%;
   max-width: 91%;
   min-height: 360px;
+  padding-bottom: 10px;
   max-height: calc(fit-content + 20px);
   background-color: #2E3744;
   color: #F1F1F1;

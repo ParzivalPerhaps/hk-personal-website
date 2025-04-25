@@ -108,7 +108,7 @@ export const HomePage = () => {
             
 
 
-        <p className='TextLight' style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto',  lineHeight:'1.5', marginTop:'3rem'}}><i>"You can tell a lot about someone by where they get their quotes from" - Hayden Karp</i></p>
+        {/*<p className='TextLight' style={{textAlign:'center', width:'70%', justifyContent:'center', margin:'auto',  lineHeight:'1.5', marginTop:'3rem'}}><i>"You can tell a lot about someone by where they get their quotes from" - Hayden Karp</i></p>*/}
 
         
         {/*<div className="CardDeck">
@@ -432,6 +432,43 @@ export const HomePage = () => {
 
             
           </div>
+          <div className="Island" style={{maxWidth:'40%'}}>
+            <div className="IslandHeader">
+              <a rel='noreferrer' target='_blank' href='https://haydencollegebetting.com'>
+              <p className='TextHeavy' style={{fontSize:20}}><span className="TextLight" style={{fontSize:12}}>PUT IT ALL ON BERKLEY. </span><u>HAYDENCOLLEGEBETTING.COM</u> <span className="TextLight" style={{fontSize:12}}>PUT IT ALL ON BERKLEY.    </span></p>
+              </a>
+            </div>
+            <div className="IslandItem">
+              <div className='ChipGroup' style={{width:'75%'}}>
+              <div className="Chip" style={{backgroundColor:'green'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>MongoDB</p>
+                </div>
+                <div className="Chip" style={{backgroundColor:'#CBBF7A'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>NodeJS</p>
+                </div>
+                <div className="Chip" style={{backgroundColor:'#7C98B3'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>AWS</p>
+                </div>
+                <div className="Chip" style={{backgroundColor:'#006494'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>TypeScript</p>
+                </div>
+                <div className="Chip" style={{backgroundColor:'#1B98E0'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>React</p>
+                </div>
+                <div className="Chip" style={{backgroundColor:'#D58936'}}>
+                  <p style={{textAlign:'center', justifyContent:'center', margin:'auto'}}>Cloudflare</p>
+                </div>
+                
+              </div>
+
+              <p style={{textAlign:'center', width:'85%', justifyContent:'center', margin:'auto', lineHeight:'1.5'}}>A full-stack MERN website designed to allow my beloved friends and family to bet points on my college admissions and receieve updates on my decisions as soon as they're available as well as view a leaderboard to see who bet most accurately and effectively.</p>
+              <div style={{marginTop:'2rem', marginBottom:'2rem'}}>
+                </div>
+
+            </div>
+
+            
+          </div>
         </div>
 
         <div className="Island">
@@ -478,6 +515,8 @@ export const HomePage = () => {
 
             
           </div>
+
+          
         </div>
        
         </>
